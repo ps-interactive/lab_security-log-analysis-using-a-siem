@@ -1,3 +1,3 @@
 FROM oofles/ir-kibana
 
-COPY [--chown=kibana:root] ./kibana.yml /opt/kibana/config/
+COPY [--chown=kibana:root] /lab_security-network-analysis-using-zeek-logs/kibana.yml /opt/kibana/config/
