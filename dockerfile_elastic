@@ -1,1 +1,1 @@
-FROM oofles/ir-elasticsearch
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.4.1-arm64
