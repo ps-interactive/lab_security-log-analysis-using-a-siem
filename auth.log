@@ -1,0 +1,206 @@
+Oct  2 00:17:01 pselklab CRON[243755]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  2 00:17:01 pselklab CRON[243755]: pam_unix(cron:session): session closed for user root
+Oct  2 01:17:01 pselklab CRON[244043]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  2 01:17:01 pselklab CRON[244043]: pam_unix(cron:session): session closed for user root
+Oct  2 01:53:09 pselklab pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct  2 01:53:09 pselklab pkexec[244892]: globolab: Executing command [USER=root] [TTY=unknown] [CWD=/home/globolab] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct  2 02:17:01 pselklab CRON[245013]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  2 02:17:01 pselklab CRON[245013]: pam_unix(cron:session): session closed for user root
+Oct  2 03:10:01 pselklab CRON[245255]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  2 03:10:01 pselklab CRON[245255]: pam_unix(cron:session): session closed for user root
+Oct  2 03:17:01 pselklab CRON[245308]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  2 03:17:01 pselklab CRON[245308]: pam_unix(cron:session): session closed for user root
+Oct  2 03:30:01 pselklab CRON[245374]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  2 03:30:01 pselklab CRON[245374]: pam_unix(cron:session): session closed for user root
+Oct  2 04:17:01 pselklab CRON[245628]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  2 04:17:01 pselklab CRON[245628]: pam_unix(cron:session): session closed for user root
+Oct  2 05:17:01 pselklab CRON[245920]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  2 05:17:01 pselklab CRON[245920]: pam_unix(cron:session): session closed for user root
+Oct  2 06:17:01 pselklab CRON[246260]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  2 06:17:01 pselklab CRON[246260]: pam_unix(cron:session): session closed for user root
+Oct  2 06:25:01 pselklab CRON[246293]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  2 06:25:01 pselklab CRON[246293]: pam_unix(cron:session): session closed for user root
+Oct  2 06:47:01 pselklab CRON[246409]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  2 06:47:01 pselklab CRON[246409]: pam_unix(cron:session): session closed for user root
+Oct  2 07:17:01 pselklab CRON[246710]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  2 07:17:01 pselklab CRON[246710]: pam_unix(cron:session): session closed for user root
+Oct  2 07:30:01 pselklab CRON[246773]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  2 07:30:01 pselklab CRON[246773]: pam_unix(cron:session): session closed for user root
+Oct  2 08:17:01 pselklab CRON[247049]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  2 08:17:01 pselklab CRON[247049]: pam_unix(cron:session): session closed for user root
+Oct  2 08:30:01 pselklab CRON[247118]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  2 08:30:01 pselklab CRON[247118]: pam_unix(cron:session): session closed for user root
+Oct  2 09:17:01 pselklab CRON[247334]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  2 09:17:01 pselklab CRON[247334]: pam_unix(cron:session): session closed for user root
+Oct  2 09:29:54 pselklab sshd[247394]: Connection closed by 192.168.10.49 port 62085 [preauth]
+Oct  2 09:30:01 pselklab sshd[247396]: Connection closed by 192.168.10.49 port 62086 [preauth]
+Oct  2 09:30:01 pselklab CRON[247398]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  2 09:30:01 pselklab CRON[247398]: pam_unix(cron:session): session closed for user root
+Oct  2 09:31:27 pselklab sshd[247404]: Accepted password for globolab from 192.168.10.49 port 62091 ssh2
+Oct  2 09:31:27 pselklab sshd[247404]: pam_unix(sshd:session): session opened for user globolab by (uid=0)
+Oct  2 09:31:27 pselklab systemd-logind[713]: New session 1517 of user globolab.
+Oct  2 09:34:52 pselklab sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Oct  2 09:34:57 pselklab sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Oct  2 09:34:57 pselklab sudo: globolab : TTY=pts/1 ; PWD=/home/globolab ; USER=root ; COMMAND=/usr/bin/apt-key add -
+Oct  2 09:34:57 pselklab sudo: pam_unix(sudo:session): session opened for user root by globolab(uid=0)
+Oct  2 09:34:58 pselklab sudo: pam_unix(sudo:session): session closed for user root
+Oct  2 09:35:05 pselklab sudo: globolab : TTY=pts/1 ; PWD=/home/globolab ; USER=root ; COMMAND=/usr/bin/apt-get install apt-transport-https
+Oct  2 09:35:05 pselklab sudo: pam_unix(sudo:session): session opened for user root by globolab(uid=0)
+Oct  2 09:35:22 pselklab sudo: pam_unix(sudo:session): session closed for user root
+Oct  2 09:35:23 pselklab sudo: globolab : TTY=pts/1 ; PWD=/home/globolab ; USER=root ; COMMAND=/usr/bin/tee -a /etc/apt/sources.list.d/elastic-8.x.list
+Oct  2 09:35:23 pselklab sudo: pam_unix(sudo:session): session opened for user root by globolab(uid=0)
+Oct  2 09:35:23 pselklab sudo: pam_unix(sudo:session): session closed for user root
+Oct  2 09:35:52 pselklab sudo: globolab : TTY=pts/1 ; PWD=/home/globolab ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct  2 09:35:52 pselklab sudo: pam_unix(sudo:session): session opened for user root by globolab(uid=0)
+Oct  2 09:36:00 pselklab sudo: pam_unix(sudo:session): session closed for user root
+Oct  2 09:36:00 pselklab sudo: globolab : TTY=pts/1 ; PWD=/home/globolab ; USER=root ; COMMAND=/usr/bin/apt-get install logstash
+Oct  2 09:36:00 pselklab sudo: pam_unix(sudo:session): session opened for user root by globolab(uid=0)
+Oct  2 09:36:28 pselklab groupadd[248437]: group added to /etc/group: name=logstash, GID=998
+Oct  2 09:36:28 pselklab groupadd[248437]: group added to /etc/gshadow: name=logstash
+Oct  2 09:36:28 pselklab groupadd[248437]: new group: name=logstash, GID=998
+Oct  2 09:36:28 pselklab useradd[248444]: new user: name=logstash, UID=998, GID=998, home=/usr/share/logstash, shell=/usr/sbin/nologin, from=/dev/pts/2
+Oct  2 09:37:22 pselklab sudo: pam_unix(sudo:session): session closed for user root
+Oct  2 09:38:09 pselklab pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct  2 09:38:09 pselklab pkexec[248788]: globolab: Executing command [USER=root] [TTY=unknown] [CWD=/home/globolab] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct  2 09:41:50 pselklab sudo: globolab : TTY=pts/1 ; PWD=/home/globolab ; USER=root ; COMMAND=/usr/bin/nano /etc/logstash/logstash.yml
+Oct  2 09:41:50 pselklab sudo: pam_unix(sudo:session): session opened for user root by globolab(uid=0)
+Oct  2 09:43:23 pselklab sudo: pam_unix(sudo:session): session closed for user root
+Oct  2 09:43:33 pselklab sudo: globolab : TTY=pts/1 ; PWD=/home/globolab ; USER=root ; COMMAND=/usr/bin/nano /etc/logstash/pipelines.yml
+Oct  2 09:43:33 pselklab sudo: pam_unix(sudo:session): session opened for user root by globolab(uid=0)
+Oct  2 09:43:39 pselklab sudo: pam_unix(sudo:session): session closed for user root
+Oct  2 09:43:59 pselklab sudo: globolab : TTY=pts/1 ; PWD=/home/globolab ; USER=root ; COMMAND=/usr/bin/nano /etc/logstash/logstash.yml
+Oct  2 09:43:59 pselklab sudo: pam_unix(sudo:session): session opened for user root by globolab(uid=0)
+Oct  2 09:47:51 pselklab sudo: pam_unix(sudo:session): session closed for user root
+Oct  2 09:49:58 pselklab sudo: globolab : TTY=pts/1 ; PWD=/etc/logstash ; USER=root ; COMMAND=/usr/bin/nano conf.d/auth.conf
+Oct  2 09:49:58 pselklab sudo: pam_unix(sudo:session): session opened for user root by globolab(uid=0)
+Oct  2 09:50:04 pselklab sudo: pam_unix(sudo:session): session closed for user root
+Oct  2 09:50:40 pselklab sudo: globolab : TTY=pts/1 ; PWD=/etc/logstash ; USER=root ; COMMAND=/usr/bin/systemctl status logstash
+Oct  2 09:50:40 pselklab sudo: pam_unix(sudo:session): session opened for user root by globolab(uid=0)
+Oct  2 09:50:41 pselklab sudo: pam_unix(sudo:session): session closed for user root
+Oct  2 09:50:47 pselklab sudo: globolab : TTY=pts/1 ; PWD=/etc/logstash ; USER=root ; COMMAND=/usr/bin/systemctl start logstash
+Oct  2 09:50:47 pselklab sudo: pam_unix(sudo:session): session opened for user root by globolab(uid=0)
+Oct  2 09:50:47 pselklab sudo: pam_unix(sudo:session): session closed for user root
+Oct  2 09:50:50 pselklab sudo: globolab : TTY=pts/1 ; PWD=/etc/logstash ; USER=root ; COMMAND=/usr/bin/systemctl status logstash
+Oct  2 09:50:50 pselklab sudo: pam_unix(sudo:session): session opened for user root by globolab(uid=0)
+Oct  2 09:50:51 pselklab sudo: pam_unix(sudo:session): session closed for user root
+Oct  2 09:50:52 pselklab sudo: globolab : TTY=pts/1 ; PWD=/etc/logstash ; USER=root ; COMMAND=/usr/bin/systemctl status logstash
+Oct  2 09:50:52 pselklab sudo: pam_unix(sudo:session): session opened for user root by globolab(uid=0)
+Oct  2 09:50:55 pselklab sudo: pam_unix(sudo:session): session closed for user root
+Oct  2 09:50:56 pselklab sudo: globolab : TTY=pts/1 ; PWD=/etc/logstash ; USER=root ; COMMAND=/usr/bin/systemctl status logstash
+Oct  2 09:50:56 pselklab sudo: pam_unix(sudo:session): session opened for user root by globolab(uid=0)
+Oct  2 09:50:57 pselklab sudo: pam_unix(sudo:session): session closed for user root
+Oct  2 09:50:58 pselklab sudo: globolab : TTY=pts/1 ; PWD=/etc/logstash ; USER=root ; COMMAND=/usr/bin/systemctl status logstash
+Oct  2 09:50:58 pselklab sudo: pam_unix(sudo:session): session opened for user root by globolab(uid=0)
+Oct  2 09:50:59 pselklab sudo: pam_unix(sudo:session): session closed for user root
+Oct  2 09:50:59 pselklab sudo: globolab : TTY=pts/1 ; PWD=/etc/logstash ; USER=root ; COMMAND=/usr/bin/systemctl status logstash
+Oct  2 09:50:59 pselklab sudo: pam_unix(sudo:session): session opened for user root by globolab(uid=0)
+Oct  2 09:51:00 pselklab sudo: pam_unix(sudo:session): session closed for user root
+Oct  2 09:51:23 pselklab sudo: globolab : TTY=pts/1 ; PWD=/etc/logstash ; USER=root ; COMMAND=/usr/bin/systemctl status logstash
+Oct  2 09:51:23 pselklab sudo: pam_unix(sudo:session): session opened for user root by globolab(uid=0)
+Oct  2 09:52:33 pselklab sudo: pam_unix(sudo:session): session closed for user root
+Oct  2 09:52:34 pselklab sudo: globolab : TTY=pts/1 ; PWD=/etc/logstash ; USER=root ; COMMAND=/usr/bin/systemctl status logstash
+Oct  2 09:52:34 pselklab sudo: pam_unix(sudo:session): session opened for user root by globolab(uid=0)
+Oct  2 09:52:39 pselklab sudo: pam_unix(sudo:session): session closed for user root
+Oct  2 09:53:23 pselklab sudo: globolab : TTY=pts/1 ; PWD=/etc/logstash ; USER=root ; COMMAND=/usr/bin/systemctl status logstash
+Oct  2 09:53:23 pselklab sudo: pam_unix(sudo:session): session opened for user root by globolab(uid=0)
+Oct  2 09:53:27 pselklab sudo: pam_unix(sudo:session): session closed for user root
+Oct  2 09:53:38 pselklab sudo: globolab : TTY=pts/1 ; PWD=/etc/logstash ; USER=root ; COMMAND=/usr/bin/su
+Oct  2 09:53:38 pselklab sudo: pam_unix(sudo:session): session opened for user root by globolab(uid=0)
+Oct  2 09:53:38 pselklab su: (to root) globolab on pts/1
+Oct  2 09:53:38 pselklab su: pam_unix(su:session): session opened for user root by globolab(uid=0)
+Oct  2 10:02:11 pselklab su: pam_unix(su:session): session closed for user root
+Oct  2 10:02:11 pselklab sudo: pam_unix(sudo:session): session closed for user root
+Oct  2 10:11:14 pselklab sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Oct  2 10:11:21 pselklab sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Oct  2 10:11:21 pselklab sudo: globolab : TTY=pts/1 ; PWD=/etc/logstash ; USER=root ; COMMAND=/usr/bin/su
+Oct  2 10:11:21 pselklab sudo: pam_unix(sudo:session): session opened for user root by globolab(uid=0)
+Oct  2 10:11:21 pselklab su: (to root) globolab on pts/1
+Oct  2 10:11:21 pselklab su: pam_unix(su:session): session opened for user root by globolab(uid=0)
+Oct  2 10:17:01 pselklab CRON[249247]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  2 10:17:02 pselklab CRON[249247]: pam_unix(cron:session): session closed for user root
+Oct  2 10:30:01 pselklab CRON[249326]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  2 10:30:02 pselklab CRON[249326]: pam_unix(cron:session): session closed for user root
+Oct  2 11:17:02 pselklab CRON[249612]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  2 11:17:02 pselklab CRON[249612]: pam_unix(cron:session): session closed for user root
+Oct  2 11:30:01 pselklab CRON[249710]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  2 11:30:01 pselklab CRON[249710]: pam_unix(cron:session): session closed for user root
+Oct  2 12:17:01 pselklab CRON[250032]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  2 12:17:02 pselklab CRON[250032]: pam_unix(cron:session): session closed for user root
+Oct  2 12:30:02 pselklab CRON[250104]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  2 12:30:02 pselklab CRON[250104]: pam_unix(cron:session): session closed for user root
+Oct  2 13:17:01 pselklab CRON[250370]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  2 13:17:01 pselklab CRON[250370]: pam_unix(cron:session): session closed for user root
+Oct  2 13:30:01 pselklab CRON[250443]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  2 13:30:01 pselklab CRON[250443]: pam_unix(cron:session): session closed for user root
+Oct  2 13:33:22 pselklab sshd[247404]: pam_unix(sshd:session): session closed for user globolab
+Oct  2 13:33:23 pselklab systemd-logind[713]: Session 1517 logged out. Waiting for processes to exit.
+Oct  2 13:33:23 pselklab su: pam_unix(su:session): session closed for user root
+Oct  2 13:33:23 pselklab sudo: pam_unix(sudo:session): session closed for user root
+Oct  2 13:33:23 pselklab systemd-logind[713]: Removed session 1517.
+Oct  2 13:34:28 pselklab sshd[250469]: Accepted password for globolab from 192.168.10.40 port 52899 ssh2
+Oct  2 13:34:28 pselklab sshd[250469]: pam_unix(sshd:session): session opened for user globolab by (uid=0)
+Oct  2 13:34:28 pselklab systemd-logind[713]: New session 1526 of user globolab.
+Oct  2 13:34:35 pselklab sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Oct  2 13:34:39 pselklab sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Oct  2 13:34:39 pselklab sudo: globolab : TTY=pts/1 ; PWD=/home/globolab ; USER=root ; COMMAND=/usr/bin/su
+Oct  2 13:34:39 pselklab sudo: pam_unix(sudo:session): session opened for user root by globolab(uid=0)
+Oct  2 13:34:39 pselklab su: (to root) globolab on pts/1
+Oct  2 13:34:39 pselklab su: pam_unix(su:session): session opened for user root by globolab(uid=0)
+Oct  2 14:07:35 pselklab systemd-logind[711]: New seat seat0.
+Oct  2 14:07:35 pselklab systemd-logind[711]: Watching system buttons on /dev/input/event0 (Power Button)
+Oct  2 14:07:35 pselklab systemd-logind[711]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Oct  2 14:07:36 pselklab sshd[832]: Server listening on 0.0.0.0 port 22.
+Oct  2 14:07:36 pselklab sshd[832]: Server listening on :: port 22.
+Oct  2 14:07:37 pselklab gdm-autologin]: gkr-pam: no password is available for user
+Oct  2 14:07:37 pselklab gdm-autologin]: pam_unix(gdm-autologin:session): session opened for user globolab by (uid=0)
+Oct  2 14:07:37 pselklab systemd-logind[711]: New session 1 of user globolab.
+Oct  2 14:07:38 pselklab systemd: pam_unix(systemd-user:session): session opened for user globolab by (uid=0)
+Oct  2 14:07:39 pselklab gdm-autologin]: gkr-pam: gnome-keyring-daemon started properly
+Oct  2 14:07:46 pselklab gnome-keyring-daemon[1084]: The PKCS#11 component was already initialized
+Oct  2 14:07:46 pselklab gnome-keyring-daemon[1084]: The Secret Service was already initialized
+Oct  2 14:07:49 pselklab sshd[1205]: Accepted password for globolab from 192.168.10.40 port 54182 ssh2
+Oct  2 14:07:49 pselklab sshd[1205]: pam_unix(sshd:session): session opened for user globolab by (uid=0)
+Oct  2 14:07:49 pselklab systemd-logind[711]: New session 3 of user globolab.
+Oct  2 14:07:52 pselklab polkitd(authority=local): Registered Authentication Agent for unix-session:1 (system bus name :1.45 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct  2 14:07:53 pselklab sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Oct  2 14:07:56 pselklab sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Oct  2 14:07:56 pselklab sudo: globolab : TTY=pts/0 ; PWD=/home/globolab ; USER=root ; COMMAND=/usr/bin/su
+Oct  2 14:07:56 pselklab sudo: pam_unix(sudo:session): session opened for user root by globolab(uid=0)
+Oct  2 14:07:56 pselklab su: (to root) globolab on pts/0
+Oct  2 14:07:56 pselklab su: pam_unix(su:session): session opened for user root by globolab(uid=0)
+Oct  2 14:08:04 pselklab dbus-daemon[695]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Oct  2 14:09:04 pselklab pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Oct  2 14:09:04 pselklab pkexec[2823]: globolab: Executing command [USER=root] [TTY=unknown] [CWD=/home/globolab] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Oct  2 14:17:01 pselklab CRON[3595]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  2 14:17:01 pselklab CRON[3595]: pam_unix(cron:session): session closed for user root
+Oct  2 14:19:35 pselklab sudo:     root : TTY=pts/0 ; PWD=/home/globolab ; USER=root ; COMMAND=/usr/bin/docker run -d --name ir-elasticsearch --net ir-elastic -p 9200:9200 -p 9300:9300 -e discovery.type=single-node oofles/ir-elasticsearch
+Oct  2 14:19:35 pselklab sudo: pam_unix(sudo:session): session opened for user root by globolab(uid=0)
+Oct  2 14:19:38 pselklab sudo: pam_unix(sudo:session): session closed for user root
+Oct  2 14:21:39 pselklab sudo:     root : TTY=pts/0 ; PWD=/home/globolab ; USER=root ; COMMAND=/usr/bin/docker build -f ./dockerfile_elastic .
+Oct  2 14:21:39 pselklab sudo: pam_unix(sudo:session): session opened for user root by globolab(uid=0)
+Oct  2 14:21:45 pselklab sudo: pam_unix(sudo:session): session closed for user root
+Oct  2 14:22:16 pselklab sudo:     root : TTY=pts/0 ; PWD=/home/globolab ; USER=root ; COMMAND=/usr/bin/docker build -f ./dockerfile_kibana .
+Oct  2 14:22:16 pselklab sudo: pam_unix(sudo:session): session opened for user root by globolab(uid=0)
+Oct  2 14:22:23 pselklab sudo: pam_unix(sudo:session): session closed for user root
+Oct  2 14:22:29 pselklab sudo:     root : TTY=pts/0 ; PWD=/home/globolab ; USER=root ; COMMAND=/usr/bin/docker run -d --name ir-elasticsearch --net ir-elastic -p 9200:9200 -p 9300:9300 -e discovery.type=single-node ir-elasticsearch
+Oct  2 14:22:29 pselklab sudo: pam_unix(sudo:session): session opened for user root by globolab(uid=0)
+Oct  2 14:22:31 pselklab sudo: pam_unix(sudo:session): session closed for user root
+Oct  2 14:22:39 pselklab sudo:     root : TTY=pts/0 ; PWD=/home/globolab ; USER=root ; COMMAND=/usr/bin/docker run -d --name ir-kibana --net ir-elastic -p 5601:5601 -e ELASTICSEARCH_HOSTS=http://ir-elasticsearch:9200 ir-kibana
+Oct  2 14:22:39 pselklab sudo: pam_unix(sudo:session): session opened for user root by globolab(uid=0)
+Oct  2 14:22:41 pselklab sudo: pam_unix(sudo:session): session closed for user root
+Oct  2 14:23:05 pselklab sudo:     root : TTY=pts/0 ; PWD=/home/globolab ; USER=root ; COMMAND=/usr/bin/docker run -d --name ir-logstash --net ir-elastic -v /root/pipeline/:/usr/share/logstash/pipeline/ ir-logstash
+Oct  2 14:23:05 pselklab sudo: pam_unix(sudo:session): session opened for user root by globolab(uid=0)
+Oct  2 14:23:05 pselklab sudo: pam_unix(sudo:session): session closed for user root
+Oct  2 14:29:53 pselklab su: pam_unix(su:session): session closed for user root
+Oct  2 14:29:53 pselklab sudo: pam_unix(sudo:session): session closed for user root
+Oct  2 14:30:02 pselklab CRON[6447]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  2 14:30:02 pselklab CRON[6447]: pam_unix(cron:session): session closed for user root
+Oct  2 14:30:11 pselklab sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Oct  2 14:30:14 pselklab sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Oct  2 14:30:14 pselklab sudo: globolab : TTY=pts/0 ; PWD=/home/globolab ; USER=root ; COMMAND=/usr/bin/docker stop ir-logstash
+Oct  2 14:30:14 pselklab sudo: pam_unix(sudo:session): session opened for user root by globolab(uid=0)
+Oct  2 14:30:14 pselklab sudo: pam_unix(sudo:session): session closed for user root
+Oct  2 14:30:19 pselklab sudo: globolab : TTY=pts/0 ; PWD=/home/globolab ; USER=root ; COMMAND=/usr/bin/su
+Oct  2 14:30:19 pselklab sudo: pam_unix(sudo:session): session opened for user root by globolab(uid=0)
+Oct  2 14:30:19 pselklab su: (to root) globolab on pts/0
+Oct  2 14:30:19 pselklab su: pam_unix(su:session): session opened for user root by globolab(uid=0)
