@@ -4,6 +4,3 @@ COPY ./logstash.yml /usr/share/logstash/config/logstash.yml
 RUN rm -rf /usr/share/logstash/pipeline/logstash.conf
 COPY [--chown=logstash:root] ./logstash.conf /usr/share/logstash/pipeline/logstash.conf
 COPY [--chown=logstash:root] ./auth.log /usr/share/logstash/auth.log
-RUN /bin/bash -c 'http_proxy="http://tstark:pssecrocks@172.31.245.222:8888" apt-get install -y nano'
-RUN /bin/bash -c 'chown -R logstash:root /usr/share/logstash/pipeline/logstash.conf'
-RUN /bin/bash -c 'chown -R logstash:root /usr/share/logstash/auth.log'
