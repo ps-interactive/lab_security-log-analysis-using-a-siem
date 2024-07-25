@@ -1,0 +1,3 @@
+FROM oofles/ir-kibana
+
+COPY [--chown=kibana:root] ./kibana.yml /opt/kibana/config/

@@ -1,0 +1,6 @@
+FROM docker.elastic.co/logstash/logstash:8.4.2
+
+COPY ./logstash.yml /usr/share/logstash/config/logstash.yml
+RUN rm -rf /usr/share/logstash/pipeline/logstash.conf
+COPY [--chown=logstash:root] ./logstash.conf /usr/share/logstash/pipeline/logstash.conf
+COPY [--chown=logstash:root] ./auth.log /usr/share/logstash/auth.log
